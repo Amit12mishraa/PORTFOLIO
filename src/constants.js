@@ -39,6 +39,7 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 // Project Section Logo's
 import wanderlustLogo from './assets/work_logo/wanderlust.png';
 import weatherLogo from './assets/work_logo/weather.png';
+import portfolioLogo from './assets/work_logo/portfolio.png';
 
 
 
@@ -166,6 +167,26 @@ export const projects =[
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB"],
         github: "https://github.com/Amit12mishraa/major_project",
         webapp: "https://major-project-jdva.onrender.com/",
+    },
+    {
+        id: 1,
+        title: "Portfolio Website",
+        description:
+            "Designed and developed a personal portfolio website to showcase projects, skills, and achievements. Built using React and Tailwind CSS with a fully responsive layout for seamless viewing across devices. Deployed on Netlify with optimized performance and clean UI/UX for a professional presentation.",
+        image: portfolioLogo,
+        tags: ["HTML", "JavaScript", "React", "Tailwindcss"],
+        github: "https://github.com/Amit12mishraa/PORTFOLIO",
+        webapp: "https://68d8efbf4192f08ad71c2116--visionary-cat-2c9275.netlify.app/",
+    },
+    {
+        id: 2,
+        title: "Weather Forcasting Website",
+        description:
+           "Built a responsive weather forecasting website using React and Express. Integrated a weather API to fetch real-time temperature, humidity, and condition data for any city. Designed with Bootstrap for clean UI and responsive layout, ensuring usability across all devices. Deployed on Netlify for fast and reliable access.",
+        image: weatherLogo,
+        tags: ["HTML", "JavaScript", "Bootstrap", "React"],
+        github: "https://github.com/Amit12mishraa/Weather_Forcasting",
+        webapp: "https://monumental-boba-16b823.netlify.app/",
     },
     
    
